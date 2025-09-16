@@ -10,7 +10,9 @@ namespace ConsoleApp19
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ahmat is power!");
+            Console.WriteLine("What is your name?");
+            string s = Console.ReadLine();
+            Console.WriteLine("Ahmat is power! " + s + ".");
         }
     }
 }
